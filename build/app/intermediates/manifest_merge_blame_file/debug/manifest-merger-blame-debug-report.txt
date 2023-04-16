@@ -1,0 +1,153 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.chat_pot"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:3:5-66
+14-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:4:2-77
+15-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:4:19-75
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:5:1-75
+16-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:5:18-73
+17
+18    <application
+18-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:6:4-43:19
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\Msi\.gradle\caches\transforms-2\files-2.1\2e94107f30f39be366a17347c2bf100b\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:8:9-43
+22        android:label="ARTHUB" >
+22-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:7:9-31
+23        <activity
+23-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:9:9-37:20
+24            android:name="com.example.chat_pot.MainActivity"
+24-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:10:13-41
+25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+25-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:13:13-163
+26            android:hardwareAccelerated="true"
+26-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:14:13-47
+27            android:launchMode="singleTop"
+27-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:11:13-43
+28            android:theme="@style/LaunchTheme"
+28-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:12:13-47
+29            android:windowSoftInputMode="adjustResize" >
+29-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:15:13-55
+30
+31            <!--
+32                 Specifies an Android theme to apply to this Activity as soon as
+33                 the Android process has started. This theme is visible to the user
+34                 while the Flutter UI initializes. After that, this theme continues
+35                 to determine the Window background behind the Flutter UI.
+36            -->
+37            <meta-data
+37-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:20:13-23:17
+38                android:name="io.flutter.embedding.android.NormalTheme"
+38-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:21:15-70
+39                android:resource="@style/NormalTheme" />
+39-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:22:15-52
+40            <!--
+41                 Displays an Android View that continues showing the launch screen
+42                 Drawable until Flutter paints its first frame, then this splash
+43                 screen fades out. A splash screen is useful to avoid any visual
+44                 gap between the end of Android's launch screen and the painting of
+45                 Flutter's first frame.
+46            -->
+47            <meta-data
+47-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:29:13-32:17
+48                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+48-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:30:15-79
+49                android:resource="@drawable/launch_background" />
+49-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:31:15-61
+50
+51            <intent-filter>
+51-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:33:13-36:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:34:17-68
+52-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:34:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:35:17-76
+54-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:35:27-74
+55            </intent-filter>
+56        </activity>
+57        <!--
+58             Don't delete the meta-data below.
+59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+60        -->
+61        <meta-data
+61-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:40:9-42:33
+62            android:name="flutterEmbedding"
+62-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:41:13-44
+63            android:value="2" />
+63-->E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\android\app\src\main\AndroidManifest.xml:42:13-30
+64
+65        <provider
+65-->[:image_picker] E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+66            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+66-->[:image_picker] E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+67            android:authorities="com.example.chat_pot.flutter.image_provider"
+67-->[:image_picker] E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+68            android:exported="false"
+68-->[:image_picker] E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+69            android:grantUriPermissions="true" >
+69-->[:image_picker] E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+70            <meta-data
+70-->[:image_picker] E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+71                android:name="android.support.FILE_PROVIDER_PATHS"
+71-->[:image_picker] E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+72                android:resource="@xml/flutter_image_picker_file_paths" />
+72-->[:image_picker] E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+73        </provider>
+74        <provider
+74-->[com.sangcomz:FishBun:0.11.2] C:\Users\Msi\.gradle\caches\transforms-2\files-2.1\964d33c2c2e431651e8444baf8fdaeb6\jetified-FishBun-0.11.2\AndroidManifest.xml:12:9-20:20
+75            android:name="com.sangcomz.fishbun.FishBunFileProvider"
+75-->[com.sangcomz:FishBun:0.11.2] C:\Users\Msi\.gradle\caches\transforms-2\files-2.1\964d33c2c2e431651e8444baf8fdaeb6\jetified-FishBun-0.11.2\AndroidManifest.xml:13:13-68
+76            android:authorities="com.example.chat_pot.fishbunfileprovider"
+76-->[com.sangcomz:FishBun:0.11.2] C:\Users\Msi\.gradle\caches\transforms-2\files-2.1\964d33c2c2e431651e8444baf8fdaeb6\jetified-FishBun-0.11.2\AndroidManifest.xml:14:13-71
+77            android:exported="false"
+77-->[com.sangcomz:FishBun:0.11.2] C:\Users\Msi\.gradle\caches\transforms-2\files-2.1\964d33c2c2e431651e8444baf8fdaeb6\jetified-FishBun-0.11.2\AndroidManifest.xml:15:13-37
+78            android:grantUriPermissions="true" >
+78-->[com.sangcomz:FishBun:0.11.2] C:\Users\Msi\.gradle\caches\transforms-2\files-2.1\964d33c2c2e431651e8444baf8fdaeb6\jetified-FishBun-0.11.2\AndroidManifest.xml:16:13-47
+79            <meta-data
+79-->[:image_picker] E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+80                android:name="android.support.FILE_PROVIDER_PATHS"
+80-->[:image_picker] E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+81                android:resource="@xml/provider_paths" />
+81-->[:image_picker] E:\learnings\5th Android Applications Development\ARTHUB\ArthubApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+82        </provider>
+83
+84        <activity
+84-->[com.sangcomz:FishBun:0.11.2] C:\Users\Msi\.gradle\caches\transforms-2\files-2.1\964d33c2c2e431651e8444baf8fdaeb6\jetified-FishBun-0.11.2\AndroidManifest.xml:22:9-25:51
+85            android:name="com.sangcomz.fishbun.ui.album.AlbumActivity"
+85-->[com.sangcomz:FishBun:0.11.2] C:\Users\Msi\.gradle\caches\transforms-2\files-2.1\964d33c2c2e431651e8444baf8fdaeb6\jetified-FishBun-0.11.2\AndroidManifest.xml:23:13-71
+86            android:label="@string/album"
+86-->[com.sangcomz:FishBun:0.11.2] C:\Users\Msi\.gradle\caches\transforms-2\files-2.1\964d33c2c2e431651e8444baf8fdaeb6\jetified-FishBun-0.11.2\AndroidManifest.xml:24:13-42
+87            android:theme="@style/FishBunTheme" />
+87-->[com.sangcomz:FishBun:0.11.2] C:\Users\Msi\.gradle\caches\transforms-2\files-2.1\964d33c2c2e431651e8444baf8fdaeb6\jetified-FishBun-0.11.2\AndroidManifest.xml:25:13-48
+88        <activity
+88-->[com.sangcomz:FishBun:0.11.2] C:\Users\Msi\.gradle\caches\transforms-2\files-2.1\964d33c2c2e431651e8444baf8fdaeb6\jetified-FishBun-0.11.2\AndroidManifest.xml:26:9-28:51
+89            android:name="com.sangcomz.fishbun.ui.picker.PickerActivity"
+89-->[com.sangcomz:FishBun:0.11.2] C:\Users\Msi\.gradle\caches\transforms-2\files-2.1\964d33c2c2e431651e8444baf8fdaeb6\jetified-FishBun-0.11.2\AndroidManifest.xml:27:13-73
+90            android:theme="@style/FishBunTheme" />
+90-->[com.sangcomz:FishBun:0.11.2] C:\Users\Msi\.gradle\caches\transforms-2\files-2.1\964d33c2c2e431651e8444baf8fdaeb6\jetified-FishBun-0.11.2\AndroidManifest.xml:28:13-48
+91        <activity
+91-->[com.sangcomz:FishBun:0.11.2] C:\Users\Msi\.gradle\caches\transforms-2\files-2.1\964d33c2c2e431651e8444baf8fdaeb6\jetified-FishBun-0.11.2\AndroidManifest.xml:29:9-31:54
+92            android:name="com.sangcomz.fishbun.ui.detail.DetailActivity"
+92-->[com.sangcomz:FishBun:0.11.2] C:\Users\Msi\.gradle\caches\transforms-2\files-2.1\964d33c2c2e431651e8444baf8fdaeb6\jetified-FishBun-0.11.2\AndroidManifest.xml:30:13-73
+93            android:theme="@style/DetailViewTheme" />
+93-->[com.sangcomz:FishBun:0.11.2] C:\Users\Msi\.gradle\caches\transforms-2\files-2.1\964d33c2c2e431651e8444baf8fdaeb6\jetified-FishBun-0.11.2\AndroidManifest.xml:31:13-51
+94    </application>
+95
+96</manifest>
